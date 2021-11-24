@@ -1,11 +1,11 @@
 import random
-#Ejercicio 1: 1. Introducir tres números y mostrarlos ordenados de mayor a menor.
-print("#Ejercicio 1: 1. Introducir tres números y mostrarlos ordenados de mayor a menor.");
+#Ejercicio 1: 1. Introducir tres numeros y mostrarlos ordenados de mayor a menor.
+print("#Ejercicio 1: 1. Introducir tres numeros y mostrarlos ordenados de mayor a menor.");
 numeros = [0, 0, 0]
 
-print("Número 1:", end=" ")
+print("Numero 1:", end=" ")
 numeros[0] = int (input())
-print("Número 2:", end=" ")
+print("Numero 2:", end=" ")
 numeros[1] = int (input())
 print("Numero 3:", end=" ")
 numeros[2] = int (input())
@@ -17,7 +17,7 @@ print(numeros)
 #2. Crear un array con los siguientes datos "perro", "gato", 1, 100
 print("\n2. Crear un array con los siguientes datos ""perro"", ""gato"", 1, 100")
 array = ["perro", "gato", 1, 100]
-print("He creado el array y queda así:", end=" ")
+print("He creado el array y queda asi:", end=" ")
 print(array)
 
 #3. Mostrar de la segunda a la cuarta letra de la primera palabra del array anterior.
@@ -27,16 +27,19 @@ print(array[0][1:4])
 print("Porque nos dicen de la primera palabra, pos 0 y la letra de la 2 a la 4 que seria de la 1 a la 4 sin incluir")
 
 #4. Mostrar la penultima letra de la segunda palabra
-print("4. Mostrar la pen�ltima letra de la segunda palabra")
+print("\n4. Mostrar la penultima letra de la segunda palabra")
 print(array[1][-2])
 
-#ejercicio 5
+#5. En la tercera posicion del array guardar el siguiente texto con este formato:
+print("\n5. En la tercera posici�n del array guardar el siguiente texto con este formato:")
 array[2] = """En un
         lugar de
     la mancha..."""
+print("Has de poner entre tres comillas.")
 print(array[2])
 
-#ejercicio 6
+#6. sumar al contenido de la cuarta posici�n la primera cifra de esta misma posicion
+print("\n6. sumar al contenido de la cuarta posici�n la primera cifra de esta misma posicion")
 numero = str(array[3])
 mostrar = array[3]+int(numero[0])
 print(mostrar)
